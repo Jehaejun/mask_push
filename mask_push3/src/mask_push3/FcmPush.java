@@ -10,7 +10,7 @@ public class FcmPush extends Thread{
 
 	// 구글 인증 서버키
 	private final String API_URL_FCM = "https://fcm.googleapis.com/fcm/send";
-	private final String AUTH_KEY_FCM = "AAAAj4-g6JU:APA91bF0qpLLbe-zFAQp-nCo9NOr-5IfF_5lStNJKZLy_jUhSEWL6z4PxHzkII3tmHFx30wNRpIyW9LuacPCLx-YnOoR9mXOtvqOCTDo1WfDQ2Unm6nFP1IEqrMV3KF-c1A9BjWld9b-";
+	private final String AUTH_KEY_FCM = "key";
 	//private List<String> APP_TOKEN = new ArrayList<String>();
 	private String token;
 	private HttpURLConnection conn;
